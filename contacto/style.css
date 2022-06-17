@@ -1,0 +1,20 @@
+header {
+  display: flex;
+  flex: 1;
+  background-color: #04146c;
+  height: 20px;
+  margin-bottom: 20px;
+}
+.alineacion {
+  display: inline;
+  vertical-align: middle;
+}
+button {
+  border: none;
+  background-color: transparent;
+  color: #04146c;
+  font-family: "roboto";
+  font-weight: 700, 400;
+  font-size: 18px;
+  margin-right: 60px;
+}

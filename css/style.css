@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  margin: 0%;
+}
+header {
+  display: flex;
+  flex: 1;
+  background-color: #04146c;
+  height: 20px;
+  margin-bottom: 20px;
+}
+.alineacion {
+  display: inline;
+  vertical-align: middle;
+}
+.button {
+  color: #04146c;
+  font-family: "roboto";
+  font-weight: 700, 400;
+  font-size: 18px;
+  margin-right: 60px;
+}
+#imagen1 {
+  width: 9%;
+  margin-right: 40px;
+  margin-left: 20px;
+}
+h1,
+p {
+  display: flex;
+  justify-content: center;
+}
+h1,
+h2 {
+  font-size: 76px;
+  color: #0a2ff1;
+  font-family: "roboto slab", bold;
+  margin-bottom: auto;
+}
+p,
+strong {
+  font-size: 28px;
+  font-family: "roboto";
+  font-weight: 400;
+  color: #04146c;
+}
+#imagen2 {
+  width: 100%;
+  height: auto;
+}
+
+h2 {
+  font-size: 45px;
+  color: #2c00cc;
+}
+
+form label,
+input,
+form p,
+textarea,
+.botones,
+main {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+form p {
+  font-family: "roboto";
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+form label {
+  font-family: "roboto", bold;
+  font-size: 30px;
+  color: #04146c;
+}
+form label span {
+  color: red;
+}
+label,
+input,
+textarea {
+  width: 500px;
+  height: 50px;
+}
+textarea {
+  height: 100px;
+}
+.botones {
+  width: 240px;
+  height: 40px;
+  display: inline;
+  font-family: sans-serif "roboto slab", bold;
+  font-size: 32px;
+  color: white;
+  border: none;
+}
+#resetear {
+  background-color: #f98500;
+}
+#enviar {
+  background-color: #2c00cc;
+}
+main h2 {
+  width: 50%;
+  font-size: 35px;
+  margin-bottom: 30px;
+  color: #04146c;
+}
+main p {
+  width: 50%;
+  font-size: 17px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+strong {
+  width: 50%;
+  font-weight: 700;
+  font-size: 24px;
+}
+footer {
+  background-color: #3957f1;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+}
+
+#imagen4 {
+  width: 20%;
+  margin-left: 5%;
+}
+main {
+  background-image: url(/img/M5-Desafio3-img.png);
+  background-position: 600px 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
