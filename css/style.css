@@ -6,6 +6,7 @@
 body {
   width: 100%;
   margin: 0%;
+  padding: 0%;
 }
 header {
   display: flex;
@@ -134,9 +135,14 @@ footer {
   width: 20%;
   margin-left: 5%;
 }
+#imagen3 {
+  width: 600px;
+  margin-top: 100px;
+  margin-left: -500px;
+  position: absolute;
+}
 main {
-  background-image: url(/img/M5-Desafio3-img.png);
-  background-position: 600px 50px;
-  background-size: contain;
-  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  width: auto;
 }
